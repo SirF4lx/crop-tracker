@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "crop-tracker",
+  "version": "${version}",
+  "name": "Crop Tracker",
+  "description": "Tracks harvested crops with a custom goal HUD matching your design!",
+  "authors": ["Developer"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.croptracker.CropTrackerMod"],
+    "client": ["com.croptracker.CropTrackerClient"]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
